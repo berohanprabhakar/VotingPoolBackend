@@ -3,7 +3,7 @@ const bcrypt = require("bcrypt");
 
 exports.getUsers = async (req, res) => {
   try {
-    const { id } = req.params;
+    const id = req.params.id;
     if (id && !isNaN(id)) {
       const user = await prisma.user.findUnique({
         where: { id: Number(id) },
