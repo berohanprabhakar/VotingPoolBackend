@@ -46,3 +46,6 @@ npm start
 ```
 Server will start at:
 👉 http://localhost:4000
+
+Thank you.
+(This readme is written with the help of AI but code is **mine**)
